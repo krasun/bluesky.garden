@@ -1,3 +1,3 @@
 # 🌱 Bluesky.Garden
 
-A curated directory of Bluesky applications and tools.
+An open directory of Bluesky applications, tools, and resources.
