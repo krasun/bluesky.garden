@@ -18,5 +18,15 @@
         "name": "Bluesky Counter",
         "url": "https://blueskycounter.com",
         "description": "A simple follower tracker for your Bluesky profile."
+    },
+    {
+        "name": "Pinsky",
+        "url": "https://pinsky.app/",
+        "description": "Charts to analyze activities and engagements on Bluesky."
+    },
+    {
+        "name": "Blueview",
+        "url": "https://blueview.app/",
+        "description": "Get powerful insights and analytics for your Bluesky social presence."
     }
 ]
