@@ -1,5 +1,10 @@
 [
     {
+        "name": "Typefully",
+        "url": "https://typefully.com/",
+        "description": "A simple and beautiful way to write and schedule posts on Bluesky (plus X, Mastodon, LinkedIn and Threads)."
+    },
+    {
         "name": "Bluesky Analytics",
         "url": "https://bsky-analytics.com/",
         "description": "A simple follower tracker for your Bluesky profile."
