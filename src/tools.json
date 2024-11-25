@@ -38,5 +38,15 @@
         "name": "Sky Follower Bridge",
         "url": "https://www.sky-follower-bridge.dev",
         "description": "Find X users on Bluesky."
+    },
+    {
+        "name": "OneUp",
+        "url": "https://www.oneupapp.io",
+        "description": "Social media management for Bluesky and other platforms with unlimited accounts."
+    },
+    {
+        "name": "Vanity Blue",
+        "url": "https://vanity.blue/",
+        "description": "Get a custom Bluesky Handle."
     }
 ]
