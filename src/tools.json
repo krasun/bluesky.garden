@@ -48,5 +48,10 @@
         "name": "Vanity Blue",
         "url": "https://vanity.blue/",
         "description": "Get a custom Bluesky Handle."
+    },
+    {
+        "name": "Blueksy by the second",
+        "url": "https://sky.flikq.dev",
+        "description": "A Bluesky realtime data visualizer."
     }
 ]
