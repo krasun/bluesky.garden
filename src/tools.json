@@ -28,5 +28,15 @@
         "name": "Blueview",
         "url": "https://blueview.app/",
         "description": "Get powerful insights and analytics for your Bluesky social presence."
+    },
+    {
+        "name": "skircle.me",
+        "url": "https://skircle.me",
+        "description": "Renders your Bluesky (the most engaging) friends."
+    },
+    {
+        "name": "Sky Follower Bridge",
+        "url": "https://www.sky-follower-bridge.dev",
+        "description": "Find X users on Bluesky."
     }
 ]
