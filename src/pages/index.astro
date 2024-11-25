@@ -1,15 +1,42 @@
 ---
 import Layout from "../layouts/Layout.astro";
+
+import tools from "../tools.json";
 ---
 
 <Layout title="Bluesky.Garden">
-    <header class="flex flex-col gap-4 px-4 pt-20 justify-center items-center">
-        <h1 class="text-5xl font-bold tracking-tight">🌱 Bluesky.Garden</h1>
+    <header class="flex flex-col gap-4 px-4 py-20 justify-center items-center">
+        <h1 class="text-5xl font-bold tracking-tight text-balance">🌱 Bluesky.Garden</h1>
         <h2 class="text-xl text-slate-600">
             A curated directory of Bluesky applications and tools.
         </h2>
     </header>
-    <main>
-        <div></div>
+    <main class="max-w-7xl px-4 mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {
+                tools.map((tool) => (
+                    <div class="p-4 space-y-4 rounded-lg shadow-lg w-96">
+                        <a
+                            href={tool.url}
+                            class="text-xl font-bold underline hover:no-underline"
+                            >{tool.name}</a
+                        >
+                        <p class="text-slate-600">{tool.description}</p>
+                    </div>
+                ))
+            }
+        </div>
     </main>
+    <footer class="px-4 pt-20 flex justify-center items-center">
+        <p>
+            <a
+                href="https://github.com/krasun/bluesky.garden"
+                class="underline hover:no-underline">GitHub</a
+            >
+            <a
+                href="https://blueskygarden.pirsch.io/"
+                class="underline hover:no-underline">Analytics</a
+            >
+        </p>
+    </footer>
 </Layout>
