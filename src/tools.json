@@ -1,5 +1,10 @@
 [
     {
+        "name": "Bluesky Analytics",
+        "url": "https://bsky-analytics.com/",
+        "description": "A simple follower tracker for your Bluesky profile."
+    },
+    {
         "name": "Bluesky Counter",
         "url": "https://blueskycounter.com",
         "description": "A simple follower tracker for your Bluesky profile."

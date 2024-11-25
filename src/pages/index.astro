@@ -2,26 +2,55 @@
 import Layout from "../layouts/Layout.astro";
 
 import tools from "../tools.json";
+import recommendations from "../recommendations.json";
 ---
 
 <Layout title="Bluesky.Garden">
     <header class="flex flex-col gap-4 px-4 py-20 justify-center items-center">
-        <h1 class="text-5xl font-bold tracking-tight text-balance">🌱 Bluesky.Garden</h1>
+        <h1 class="text-5xl font-bold tracking-tight text-balance">
+            🌱 Bluesky.Garden
+        </h1>
         <h2 class="text-xl text-slate-600">
-            A curated directory of Bluesky applications and tools.
+            A curated directory of Bluesky applications, tools, and resources.
         </h2>
     </header>
     <main class="max-w-7xl px-4 mx-auto">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="grid grid-cols-1 gap-4">
+            {
+                recommendations.map((recommendation) => (
+                    <div class="relative flex flex-row gap-4 items-center group w-fit">
+                        <div>
+                            <p class="text-slate-600">
+                                {recommendation.description}
+                            </p>
+                        </div>
+                        <div>
+                            <span class="underline group-hover:no-underline">
+                                Read more →
+                            </span>
+                        </div>
+                        <a
+                            href={recommendation.url}
+                            class="absolute inset-0"
+                            aria-label={`Read more about ${recommendation.description}`}
+                        />
+                    </div>
+                ))
+            }
+        </div>
+        <div class="mt-20 grid grid-cols-1 md:grid-cols-3 gap-4">
             {
                 tools.map((tool) => (
-                    <div class="p-4 space-y-4 rounded-lg shadow-lg w-96">
+                    <div class="relative p-4 space-y-4 rounded-lg shadow-lg w-96">
+                        <h3 class="text-xl font-bold underline hover:no-underline">
+                            {tool.name}
+                        </h3>
+                        <p class="text-slate-600">{tool.description}</p>
                         <a
                             href={tool.url}
-                            class="text-xl font-bold underline hover:no-underline"
-                            >{tool.name}</a
-                        >
-                        <p class="text-slate-600">{tool.description}</p>
+                            class="absolute inset-0"
+                            aria-label={`Read more about ${tool.description}`}
+                        />
                     </div>
                 ))
             }
