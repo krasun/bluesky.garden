@@ -1,5 +1,10 @@
 [
     {
+        "name": "Airview",
+        "url": "https://airview.so/",
+        "description": "Bluesky publishing and analytics."
+    },
+    {
         "name": "Typefully",
         "url": "https://typefully.com/",
         "description": "A simple and beautiful way to write and schedule posts on Bluesky (plus X, Mastodon, LinkedIn and Threads)."
