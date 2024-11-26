@@ -53,5 +53,10 @@
         "name": "Blueksy by the second",
         "url": "https://sky.flikq.dev",
         "description": "A Bluesky realtime data visualizer."
+    },
+    {
+        "name": "Bluesky Meter",
+        "url": "https://blueskymeter.com",
+        "description": "Simple and enjoyable Bluesky Analytics (with posting streak)."
     }
 ]
