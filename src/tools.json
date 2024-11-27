@@ -78,5 +78,10 @@
         "name": "Realtime Bluesky Metrics",
         "url": "https://realtime.blue/",
         "description": "Enter your Bluesky handle to get your realtime metrics 👇."
-    }
+    },
+    {
+        "name": "Remind Me Of This",
+        "url": "https://bsky.app/profile/remindmeofth.is",
+        "description": "Get reminded about a post or thread. Just tag the bot as example: @remindmeofth.is in 3 months."
+    },
 ]
