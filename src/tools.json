@@ -58,5 +58,10 @@
         "name": "Bluesky Packs",
         "url": "https://blueskypacks.com",
         "description": "Starter packs made easy."
+    },
+    {
+        "name": "Bluesky Copilot",
+        "url": "https://blueskycopilot.yourgenlab.com",
+        "description": "Get tailored posts based on your past ones."
     }
 ]
