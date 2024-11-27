@@ -73,5 +73,10 @@
         "name": "Bluesky Copilot",
         "url": "https://blueskycopilot.yourgenlab.com",
         "description": "Get tailored posts based on your past ones."
+    },
+    {
+        "name": "Realtime Bluesky Metrics",
+        "url": "https://realtime.blue/",
+        "description": "Enter your Bluesky handle to get your realtime metrics 👇."
     }
 ]
