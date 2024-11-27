@@ -58,5 +58,15 @@
         "name": "Bluesky Meter",
         "url": "https://blueskymeter.com",
         "description": "Simple and enjoyable Bluesky Analytics (with posting streak)."
+    },
+    {
+        "name": "Thriendly",
+        "url": "https://thriendly.com/threads-formatter",
+        "description": "Bluesky Post formatter & Viral threads scheduler for Bluesky & Threads"
+    }, 
+    {
+        "name": "Bluesky Copilot",
+        "url": "https://blueskycopilot.yourgenlab.com",
+        "description": "Get tailored posts based on your past ones."
     }
 ]
