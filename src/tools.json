@@ -55,6 +55,11 @@
         "description": "A Bluesky realtime data visualizer."
     },
     {
+        "name": "Bluesky Meter",
+        "url": "https://blueskymeter.com",
+        "description": "Simple and enjoyable Bluesky Analytics (with posting streak)."
+    },
+    {
         "name": "Thriendly",
         "url": "https://thriendly.com/threads-formatter",
         "description": "Bluesky Post formatter & Viral threads scheduler for Bluesky & Threads"
