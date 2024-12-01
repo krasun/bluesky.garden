@@ -103,5 +103,10 @@
         "name": "ThunderSky",
         "url": "https://news.thundersky.app",
         "description": "If the Bluesky firehose and the Hacker News ranking algorithm ever got together and had a cyber baby, this is what it might look like."
+    }, 
+    {
+        "name": "Monadsky",
+        "url": "https://monadsky.com/",
+        "description": "Schedule your posts, threads, and images in advance."
     }
 ]
