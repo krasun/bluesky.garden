@@ -94,4 +94,9 @@
         "url": "https://www.blueskyscheduler.com/",
         "description": "Draft and schedule posts on Bluesky"
     },
+    {
+        "name": "Bluesky Roast",
+        "url": "https://blueskyroast.com",
+        "description": "Discover Your Bluesky Digital Persona"
+    }
 ]
