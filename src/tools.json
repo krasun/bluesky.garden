@@ -108,5 +108,10 @@
         "name": "Monadsky",
         "url": "https://monadsky.com/",
         "description": "Schedule your posts, threads, and images in advance."
+    },
+    {
+        "name": "BluePeers",
+        "url": "https://bluepeers.app/",
+        "description": "Find & engage with your active Bluesky peers through a simple Chrome extension."
     }
 ]
