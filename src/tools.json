@@ -68,7 +68,7 @@
         "name": "Thriendly",
         "url": "https://thriendly.com/threads-formatter",
         "description": "Bluesky Post formatter & Viral threads scheduler for Bluesky & Threads"
-    }, 
+    },
     {
         "name": "Bluesky Copilot",
         "url": "https://blueskycopilot.yourgenlab.com",
@@ -98,5 +98,10 @@
         "name": "Bluesky Roast",
         "url": "https://blueskyroast.com",
         "description": "Discover Your Bluesky Digital Persona"
+    },
+    {
+        "name": "ThunderSky",
+        "url": "https://news.thundersky.app",
+        "description": "If the Bluesky firehose and the Hacker News ranking algorithm ever got together and had a cyber baby, this is what it might look like."
     }
 ]
