@@ -88,5 +88,10 @@
         "name": "Top Bluesky followers",
         "url": "https://topblueskyfollowers.com/",
         "description": "Which of your followers has the most followers? Find out using this tool"
-    },  
+    },
+    {
+        "name": "Bluesky Scheduler",
+        "url": "https://www.blueskyscheduler.com/",
+        "description": "Draft and schedule posts on Bluesky"
+    },
 ]
