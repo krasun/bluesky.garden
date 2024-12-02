@@ -1,0 +1,42 @@
+---
+import { Image } from "astro:assets";
+import type { HTMLAttributes } from "astro/types";
+import Button from "~/components/ui/Button.astro";
+
+type Props = HTMLAttributes<"a"> & {
+  name: string;
+  description?: string;
+};
+
+const { href, name, description, ...props } = Astro.props as Props;
+---
+
+<a
+  href={href}
+  class="group flex flex-col gap-4 p-5 rounded-lg border hover:border-border-dark md:p-6"
+  aria-label={`Read more about ${description}`}
+  {...props}
+>
+  <div class="flex items-center gap-3">
+    <div
+      class="flex size-9 items-center justify-center shrink-0 rounded-md border bg-background p-1"
+    >
+      <Image
+        src={`https://www.google.com/s2/favicons?sz=128&domain_url=${href}`}
+        alt={`A favicon of ${name}`}
+        loading="lazy"
+        width="64"
+        height="64"
+        class="aspect-square size-7 rounded-sm"
+      />
+    </div>
+
+    <h3 class="text-xl font-semibold">
+      {name}
+    </h3>
+  </div>
+
+  <p class="max-w-xs text-muted text-pretty line-clamp-3">{description}</p>
+
+  <Button class="mt-auto">Visit website</Button>
+</a>

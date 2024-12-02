@@ -1,0 +1,42 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+type Props = HTMLAttributes<"span"> & {
+  variant?: "primary" | "secondary";
+};
+
+const {
+  class: className,
+  variant = "secondary",
+  ...props
+} = Astro.props as Props;
+---
+
+<span
+  class:list={[
+    "flex items-center justify-between gap-2 rounded-md px-4 py-2 font-medium",
+    variant === "secondary" &&
+      "bg-card text-secondary group-hover:bg-card-dark",
+    variant === "primary" && "bg-primary text-white",
+    className,
+  ]}
+  {...props}
+>
+  <slot />
+
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    class="shrink-0 size-3.5 will-change-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:scale-105"
+  >
+    <path d="M7 7h10v10"></path>
+    <path d="M7 17 17 7"></path>
+  </svg>
+</span>

@@ -1,29 +1,44 @@
 ---
-interface Props {
-    title: string;
-}
+import Footer from "~/components/Footer.astro";
+import Navigation from "~/components/Navigation.astro";
+import "~/styles/styles.css";
+
+type Props = {
+  title: string;
+};
 
 const { title } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="description" content="Astro description" />
-        <meta name="viewport" content="width=device-width" />
-        <title>{title}</title>
-        <link
-            rel="icon"
-            href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%%22 y=%2250%%22 font-size=%2280%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22>🌱</text></svg>"
-        />
-        <script
-            defer
-            src="https://api.pirsch.io/pa.js"
-            id="pianjs"
-            data-code="1fToZBMpt2Xs76jqvyzEWi6xh5ivpGSe"></script>
-    </head>
-    <body>
-        <slot />
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>{title}</title>
+
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%2250%%22 y=%2250%%22 font-size=%2280%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22>🌱</text></svg>"
+    />
+
+    <script
+      defer
+      src="https://api.pirsch.io/pa.js"
+      id="pianjs"
+      data-code="1fToZBMpt2Xs76jqvyzEWi6xh5ivpGSe"></script>
+  </head>
+
+  <body
+    class="flex flex-col gap-12 px-6 pt-4 pb-8 min-h-screen max-w-6xl mx-auto bg-background text-foreground md:px-8 md:gap-16 lg:gap-20"
+  >
+    <Navigation />
+    <slot />
+    <Footer />
+  </body>
 </html>
