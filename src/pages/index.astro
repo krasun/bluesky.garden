@@ -1,20 +1,22 @@
 ---
+import slugify from "@sindresorhus/slugify";
 import Card from "~/components/ui/Card.astro";
-import Layout from "../layouts/Layout.astro";
+import Intro from "~/components/ui/Intro.astro";
+import Layout from "~/layouts/Layout.astro";
 
-import recommendations from "../recommendations.json";
-import tools from "../tools.json";
+import recommendations from "~/recommendations.json";
+import tools from "~/tools.json";
 ---
 
 <Layout
   title="Bluesky.Garden — An open directory of Bluesky applications, tools, and resources."
 >
-  <header>
-    <h1 class="text-4xl font-bold tracking-tight text-balance md:text-5xl">
+  <Intro>
+    <Fragment slot="title">
       An open directory of <span class="underline text-primary">Bluesky</span>
-      applications, tools, and resources.
-    </h1>
-  </header>
+      applications, tools, and resources.</Fragment
+    >
+  </Intro>
 
   <div class="flex flex-col gap-6 sm:gap-4">
     {
@@ -46,11 +48,10 @@ import tools from "../tools.json";
     {
       tools.map((tool) => (
         <Card
-          href={tool.url}
+          href={`/tools/${slugify(tool.name, { decamelize: true })}`}
           name={tool.name}
           description={tool.description}
-          target="_blank"
-          rel="noopener noreferrer"
+          faviconUrl={`https://www.google.com/s2/favicons?sz=128&domain_url=${tool.url}`}
         />
       ))
     }

@@ -1,0 +1,53 @@
+---
+import { Image } from "astro:assets";
+
+import slugify from "@sindresorhus/slugify";
+import Button from "~/components/ui/Button.astro";
+import Intro from "~/components/ui/Intro.astro";
+import Layout from "~/layouts/Layout.astro";
+
+import tools from "~/tools.json";
+
+export async function getStaticPaths() {
+  return tools.map((tool) => ({
+    params: { tool: slugify(tool.name, { decamelize: true }) },
+    props: { tool },
+  }));
+}
+
+const { tool } = Astro.props;
+---
+
+<Layout title={`${tool.name} — Bluesky.Garden`}>
+  <div class="flex flex-col items-start gap-12 lg:flex-row">
+    <Intro class="w-full">
+      <Fragment slot="title">{tool.name}</Fragment>
+
+      <Fragment slot="description">
+        {tool.description}
+      </Fragment>
+
+      <a
+        href={tool.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="group"
+      >
+        <Button variant="primary" class="mt-4">Visit {tool.name}</Button>
+      </a>
+    </Intro>
+
+    {
+      tool.screenshotUrl && (
+        <Image
+          src={tool.screenshotUrl}
+          alt={tool.name}
+          height={720}
+          width={1280}
+          loading="eager"
+          class="w-full border rounded-xl lg:w-3/5"
+        />
+      )
+    }
+  </div>
+</Layout>
