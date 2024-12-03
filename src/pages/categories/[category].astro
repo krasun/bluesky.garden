@@ -4,7 +4,7 @@ import Intro from "~/components/ui/Intro.astro";
 import Layout from "~/layouts/Layout.astro";
 
 import categories from "~/categories.json";
-import Card from "~/components/ui/Card.astro";
+import ToolCard from "~/components/ToolCard.astro";
 import Grid from "~/components/ui/Grid.astro";
 import tools from "~/tools.json";
 
@@ -28,15 +28,6 @@ const toolsInCategory = tools.filter(({ categories }) =>
   </Intro>
 
   <Grid>
-    {
-      toolsInCategory.map((tool) => (
-        <Card
-          href={`/tools/${slugify(tool.name, { decamelize: true })}`}
-          name={tool.name}
-          description={tool.description}
-          faviconUrl={`https://www.google.com/s2/favicons?sz=128&domain_url=${tool.url}`}
-        />
-      ))
-    }
+    {toolsInCategory.map((tool) => <ToolCard tool={tool} />)}
   </Grid>
 </Layout>
