@@ -4,14 +4,14 @@
     "url": "https://airview.so/",
     "description": "Bluesky publishing and analytics.",
     "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
-    "categories": ["Analytics", "Publishing"]
+    "categories": ["Analytics", "Scheduling"]
   },
   {
     "name": "Typefully",
     "url": "https://typefully.com/",
     "description": "A simple and beautiful way to write and schedule posts on Bluesky (plus X, Mastodon, LinkedIn and Threads).",
     "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
-    "categories": ["Publishing"]
+    "categories": ["Scheduling"]
   },
   {
     "name": "Bluesky Analytics",
@@ -95,14 +95,14 @@
     "url": "https://thriendly.com/threads-formatter",
     "description": "Bluesky Post formatter & Viral threads scheduler for Bluesky & Threads",
     "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
-    "categories": ["Publishing"]
+    "categories": ["Scheduling"]
   },
   {
     "name": "Bluesky Copilot",
     "url": "https://blueskycopilot.yourgenlab.com",
     "description": "Get tailored posts based on your past ones.",
     "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
-    "categories": ["Publishing"]
+    "categories": ["Scheduling"]
   },
   {
     "name": "Realtime Bluesky Metrics",
@@ -130,7 +130,7 @@
     "url": "https://www.blueskyscheduler.com/",
     "description": "Draft and schedule posts on Bluesky",
     "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
-    "categories": ["Publishing"]
+    "categories": ["Scheduling"]
   },
   {
     "name": "Bluesky Roast",
@@ -151,7 +151,7 @@
     "url": "https://monadsky.com/",
     "description": "Schedule your posts, threads, and images in advance.",
     "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
-    "categories": ["Publishing"]
+    "categories": ["Scheduling"]
   },
   {
     "name": "BluePeers",

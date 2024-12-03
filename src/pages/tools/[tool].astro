@@ -6,6 +6,7 @@ import Button from "~/components/ui/Button.astro";
 import Intro from "~/components/ui/Intro.astro";
 import Layout from "~/layouts/Layout.astro";
 
+import Link from "~/components/ui/Link.astro";
 import tools from "~/tools.json";
 
 export async function getStaticPaths() {
@@ -18,8 +19,8 @@ export async function getStaticPaths() {
 const { tool } = Astro.props;
 ---
 
-<Layout title={`${tool.name} — Bluesky.Garden`}>
-  <div class="flex flex-col items-start gap-12 lg:flex-row">
+<Layout title={tool.name}>
+  <div class="flex flex-col gap-12 lg:flex-row">
     <Intro class="w-full">
       <Fragment slot="title">{tool.name}</Fragment>
 
@@ -27,13 +28,29 @@ const { tool } = Astro.props;
         {tool.description}
       </Fragment>
 
+      {
+        !!tool.categories?.length && (
+          <div class="flex gap-2">
+            Categories:
+            {tool.categories.map((category) => (
+              <Link
+                href={`/categories/${slugify(category, { decamelize: true })}`}
+              >
+                <span class="opacity-50">#</span>
+                {category}
+              </Link>
+            ))}
+          </div>
+        )
+      }
+
       <a
         href={tool.url}
         target="_blank"
         rel="noopener noreferrer"
-        class="group"
+        class="group mt-auto"
       >
-        <Button variant="primary" class="mt-4">Visit {tool.name}</Button>
+        <Button variant="primary" class="mt-2">Visit {tool.name}</Button>
       </a>
     </Intro>
 
@@ -45,7 +62,7 @@ const { tool } = Astro.props;
           height={720}
           width={1280}
           loading="eager"
-          class="w-full border rounded-xl lg:w-3/5"
+          class="w-full border rounded-xl self-start lg:w-3/5"
         />
       )
     }

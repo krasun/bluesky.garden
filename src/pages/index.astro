@@ -1,6 +1,7 @@
 ---
 import slugify from "@sindresorhus/slugify";
 import Card from "~/components/ui/Card.astro";
+import Grid from "~/components/ui/Grid.astro";
 import Intro from "~/components/ui/Intro.astro";
 import Layout from "~/layouts/Layout.astro";
 
@@ -9,7 +10,7 @@ import tools from "~/tools.json";
 ---
 
 <Layout
-  title="Bluesky.Garden — An open directory of Bluesky applications, tools, and resources."
+  title="An open directory of Bluesky applications, tools, and resources."
 >
   <Intro>
     <Fragment slot="title">
@@ -44,7 +45,7 @@ import tools from "~/tools.json";
     }
   </div>
 
-  <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 md:gap-6">
+  <Grid>
     {
       tools.map((tool) => (
         <Card
@@ -55,5 +56,5 @@ import tools from "~/tools.json";
         />
       ))
     }
-  </div>
+  </Grid>
 </Layout>

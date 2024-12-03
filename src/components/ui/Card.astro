@@ -7,9 +7,17 @@ type Props = HTMLAttributes<"a"> & {
   name: string;
   description?: string;
   faviconUrl?: string;
+  buttonText?: string;
 };
 
-const { href, name, description, faviconUrl, ...props } = Astro.props as Props;
+const {
+  href,
+  name,
+  description,
+  faviconUrl,
+  buttonText = "Read more",
+  ...props
+} = Astro.props as Props;
 ---
 
 <a
@@ -41,5 +49,5 @@ const { href, name, description, faviconUrl, ...props } = Astro.props as Props;
 
   <p class="max-w-xs text-muted text-pretty line-clamp-3">{description}</p>
 
-  <Button class="mt-auto">Read more</Button>
+  <Button class="mt-auto">{buttonText}</Button>
 </a>
