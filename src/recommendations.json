@@ -1,10 +1,12 @@
 [
-    {
-        "description": "\"Leaving Twitter for Bluesky\" by Justin Jackson",
-        "url": "https://justinjackson.ca/twitter-bluesky"
-    },
-    {
-        "description": "\"Bluesky – Fad or Real Success?\" by Nika Kotláriková",
-        "url": "https://businessandmarketing.substack.com/p/bluesky-fad-or-real-success"
-    }
+  {
+    "title": "Leaving Twitter for Bluesky",
+    "author": "Justin Jackson",
+    "url": "https://justinjackson.ca/twitter-bluesky"
+  },
+  {
+    "title": "Bluesky – Fad or Real Success?",
+    "author": "Nika Kotláriková",
+    "url": "https://businessandmarketing.substack.com/p/bluesky-fad-or-real-success"
+  }
 ]

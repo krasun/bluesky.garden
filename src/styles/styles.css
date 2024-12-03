@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS */
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings:
+    "liga" 1,
+    /* Contextual Alternates */ "calt" 1,
+    /* Discretionary Ligatures */ "dlig" 1,
+    /* fSquare punctuation */ "ss07" 1,
+    /* Square quotes */ "ss08" 1,
+    /* Slashed zero */ "zero" 1,
+    /* Tabular numbers */ "tnum" 1,
+    /* Open six */ "cv03" 1,
+    /* Open nine */ "cv04" 1,
+    /* Alternate one */ "cv01" 1,
+    /* Flat-top three */ "cv09",
+    /* Open 4 */ "cv02" 1;
+
+  --color-primary: 209 100% 51%;
+  --color-background: 0 0% 100%;
+  --color-muted: 0 0% 40%;
+  --color-secondary: 0 0% 30%;
+  --color-foreground: 0 0% 13%;
+  --color-card: 0 0% 97%;
+  --color-card-dark: 0 0% 95%;
+  --color-border: 0 0% 88%;
+  --color-border-dark: 0 0% 80%;
+
+  @media (prefers-color-scheme: dark) {
+    --color-background: 0 0% 8%;
+    --color-muted: 0 0% 60%;
+    --color-secondary: 0 0% 70%;
+    --color-foreground: 0 0% 87%;
+    --color-card: 0 0% 12%;
+    --color-card-dark: 0 0% 15%;
+    --color-border: 0 0% 16%;
+    --color-border-dark: 0 0% 24%;
+  }
+}
+
+@supports (font-variation-settings: normal) {
+  /* Use variable font if supported */
+  :root {
+    font-family: InterVariable, sans-serif;
+  }
+}
+
+* {
+  @apply underline-offset-2;
+  @apply border-border;
+}
+
+a,
+button,
+label[for],
+[href] [class*="group-hover"] {
+  @apply transition;
+  @apply ease-out;
+  @apply duration-150;
+  @apply cursor-pointer;
+}

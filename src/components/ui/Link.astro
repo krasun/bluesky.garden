@@ -1,0 +1,23 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+const pathname = new URL(Astro.request.url).pathname;
+const currentPath = pathname.slice(1);
+
+type Props = HTMLAttributes<"a">;
+
+const { href, ...props } = Astro.props as Props;
+---
+
+<a
+  href={href}
+  class:list={[
+    (href === "/" && currentPath === "") ||
+    (!!href && currentPath.startsWith(href as string))
+      ? "text-foreground underline"
+      : "text-muted hover:text-foreground",
+  ]}
+  {...props}
+>
+  <slot />
+</a>

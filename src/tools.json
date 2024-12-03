@@ -1,117 +1,117 @@
 [
-    {
-        "name": "Airview",
-        "url": "https://airview.so/",
-        "description": "Bluesky publishing and analytics."
-    },
-    {
-        "name": "Typefully",
-        "url": "https://typefully.com/",
-        "description": "A simple and beautiful way to write and schedule posts on Bluesky (plus X, Mastodon, LinkedIn and Threads)."
-    },
-    {
-        "name": "Bluesky Analytics",
-        "url": "https://bsky-analytics.com/",
-        "description": "A simple follower tracker for your Bluesky profile."
-    },
-    {
-        "name": "Bluesky Counter",
-        "url": "https://blueskycounter.com",
-        "description": "A simple follower tracker for your Bluesky profile."
-    },
-    {
-        "name": "Pinsky",
-        "url": "https://pinsky.app/",
-        "description": "Charts to analyze activities and engagements on Bluesky."
-    },
-    {
-        "name": "Blueview",
-        "url": "https://blueview.app/",
-        "description": "Get powerful insights and analytics for your Bluesky social presence."
-    },
-    {
-        "name": "skircle.me",
-        "url": "https://skircle.me",
-        "description": "Renders your Bluesky (the most engaging) friends."
-    },
-    {
-        "name": "Sky Follower Bridge",
-        "url": "https://www.sky-follower-bridge.dev",
-        "description": "Find X users on Bluesky."
-    },
-    {
-        "name": "OneUp",
-        "url": "https://www.oneupapp.io",
-        "description": "Social media management for Bluesky and other platforms with unlimited accounts."
-    },
-    {
-        "name": "Vanity Blue",
-        "url": "https://vanity.blue/",
-        "description": "Get a custom Bluesky Handle."
-    },
-    {
-        "name": "Blueksy by the second",
-        "url": "https://sky.flikq.dev",
-        "description": "A Bluesky realtime data visualizer."
-    },
-    {
-        "name": "Bluesky Packs",
-        "url": "https://blueskypacks.com",
-        "description": "Starter packs made easy."
-    },
-    {
-        "name": "Bluesky Meter",
-        "url": "https://blueskymeter.com",
-        "description": "Simple and enjoyable Bluesky Analytics (with posting streak)."
-    },
-    {
-        "name": "Thriendly",
-        "url": "https://thriendly.com/threads-formatter",
-        "description": "Bluesky Post formatter & Viral threads scheduler for Bluesky & Threads"
-    },
-    {
-        "name": "Bluesky Copilot",
-        "url": "https://blueskycopilot.yourgenlab.com",
-        "description": "Get tailored posts based on your past ones."
-    },
-    {
-        "name": "Realtime Bluesky Metrics",
-        "url": "https://realtime.blue/",
-        "description": "Enter your Bluesky handle to get your realtime metrics 👇."
-    },
-    {
-        "name": "Remind Me Of This",
-        "url": "https://bsky.app/profile/remindmeofth.is",
-        "description": "Get reminded about a post or thread. Just tag the bot as example: @remindmeofth.is in 3 months."
-    },
-    {
-        "name": "Top Bluesky followers",
-        "url": "https://topblueskyfollowers.com/",
-        "description": "Which of your followers has the most followers? Find out using this tool"
-    },
-    {
-        "name": "Bluesky Scheduler",
-        "url": "https://www.blueskyscheduler.com/",
-        "description": "Draft and schedule posts on Bluesky"
-    },
-    {
-        "name": "Bluesky Roast",
-        "url": "https://blueskyroast.com",
-        "description": "Discover Your Bluesky Digital Persona"
-    },
-    {
-        "name": "ThunderSky",
-        "url": "https://news.thundersky.app",
-        "description": "If the Bluesky firehose and the Hacker News ranking algorithm ever got together and had a cyber baby, this is what it might look like."
-    }, 
-    {
-        "name": "Monadsky",
-        "url": "https://monadsky.com/",
-        "description": "Schedule your posts, threads, and images in advance."
-    },
-    {
-        "name": "BluePeers",
-        "url": "https://bluepeers.app/",
-        "description": "Find & engage with your active Bluesky peers through a simple Chrome extension."
-    }
+  {
+    "name": "Airview",
+    "url": "https://airview.so/",
+    "description": "Bluesky publishing and analytics."
+  },
+  {
+    "name": "Typefully",
+    "url": "https://typefully.com/",
+    "description": "A simple and beautiful way to write and schedule posts on Bluesky (plus X, Mastodon, LinkedIn and Threads)."
+  },
+  {
+    "name": "Bluesky Analytics",
+    "url": "https://bsky-analytics.com/",
+    "description": "A simple follower tracker for your Bluesky profile."
+  },
+  {
+    "name": "Bluesky Counter",
+    "url": "https://blueskycounter.com",
+    "description": "A simple follower tracker for your Bluesky profile."
+  },
+  {
+    "name": "Pinsky",
+    "url": "https://pinsky.app/",
+    "description": "Charts to analyze activities and engagements on Bluesky."
+  },
+  {
+    "name": "Blueview",
+    "url": "https://blueview.app/",
+    "description": "Get powerful insights and analytics for your Bluesky social presence."
+  },
+  {
+    "name": "skircle.me",
+    "url": "https://skircle.me",
+    "description": "Renders your Bluesky (the most engaging) friends."
+  },
+  {
+    "name": "Sky Follower Bridge",
+    "url": "https://www.sky-follower-bridge.dev",
+    "description": "Find X users on Bluesky."
+  },
+  {
+    "name": "OneUp",
+    "url": "https://www.oneupapp.io",
+    "description": "Social media management for Bluesky and other platforms with unlimited accounts."
+  },
+  {
+    "name": "Vanity Blue",
+    "url": "https://vanity.blue/",
+    "description": "Get a custom Bluesky Handle."
+  },
+  {
+    "name": "Blueksy by the second",
+    "url": "https://sky.flikq.dev",
+    "description": "A Bluesky realtime data visualizer."
+  },
+  {
+    "name": "Bluesky Packs",
+    "url": "https://blueskypacks.com",
+    "description": "Starter packs made easy."
+  },
+  {
+    "name": "Bluesky Meter",
+    "url": "https://blueskymeter.com",
+    "description": "Simple and enjoyable Bluesky Analytics (with posting streak)."
+  },
+  {
+    "name": "Thriendly",
+    "url": "https://thriendly.com/threads-formatter",
+    "description": "Bluesky Post formatter & Viral threads scheduler for Bluesky & Threads"
+  },
+  {
+    "name": "Bluesky Copilot",
+    "url": "https://blueskycopilot.yourgenlab.com",
+    "description": "Get tailored posts based on your past ones."
+  },
+  {
+    "name": "Realtime Bluesky Metrics",
+    "url": "https://realtime.blue/",
+    "description": "Enter your Bluesky handle to get your realtime metrics 👇."
+  },
+  {
+    "name": "Remind Me Of This",
+    "url": "https://bsky.app/profile/remindmeofth.is",
+    "description": "Get reminded about a post or thread. Just tag the bot as example: @remindmeofth.is in 3 months."
+  },
+  {
+    "name": "Top Bluesky followers",
+    "url": "https://topblueskyfollowers.com/",
+    "description": "Which of your followers has the most followers? Find out using this tool"
+  },
+  {
+    "name": "Bluesky Scheduler",
+    "url": "https://www.blueskyscheduler.com/",
+    "description": "Draft and schedule posts on Bluesky"
+  },
+  {
+    "name": "Bluesky Roast",
+    "url": "https://blueskyroast.com",
+    "description": "Discover Your Bluesky Digital Persona"
+  },
+  {
+    "name": "ThunderSky",
+    "url": "https://news.thundersky.app",
+    "description": "If the Bluesky firehose and the Hacker News ranking algorithm ever got together and had a cyber baby, this is what it might look like."
+  },
+  {
+    "name": "Monadsky",
+    "url": "https://monadsky.com/",
+    "description": "Schedule your posts, threads, and images in advance."
+  },
+  {
+    "name": "BluePeers",
+    "url": "https://bluepeers.app/",
+    "description": "Find & engage with your active Bluesky peers through a simple Chrome extension."
+  }
 ]
