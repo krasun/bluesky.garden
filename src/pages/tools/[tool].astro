@@ -30,8 +30,7 @@ const { tool } = Astro.props;
 
       {
         !!tool.categories?.length && (
-          <div class="flex gap-2">
-            Categories:
+          <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
             {tool.categories.map((category) => (
               <Link
                 href={`/categories/${slugify(category, { decamelize: true })}`}
@@ -48,9 +47,9 @@ const { tool } = Astro.props;
         href={tool.url}
         target="_blank"
         rel="noopener noreferrer"
-        class="group mt-auto"
+        class="group mt-2"
       >
-        <Button variant="primary" class="mt-2">Visit {tool.name}</Button>
+        <Button variant="primary">Visit {tool.name}</Button>
       </a>
     </Intro>
 
