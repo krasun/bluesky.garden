@@ -1,9 +1,12 @@
 ---
+import slugify from "@sindresorhus/slugify";
 import ToolCard from "~/components/ToolCard.astro";
+import Button from "~/components/ui/Button.astro";
 import Grid from "~/components/ui/Grid.astro";
 import Intro from "~/components/ui/Intro.astro";
 import Layout from "~/layouts/Layout.astro";
 
+import categories from "~/categories.json";
 import recommendations from "~/recommendations.json";
 import tools from "~/tools.json";
 ---
@@ -44,7 +47,34 @@ import tools from "~/tools.json";
     }
   </div>
 
-  <Grid>
-    {tools.map((tool) => <ToolCard tool={tool} />)}
-  </Grid>
+  {
+    categories.map((category) => {
+      const toolsInCategory = tools.filter(({ categories }) =>
+        categories.includes(category.name)
+      );
+
+      return (
+        <div class="flex flex-col gap-6 sm:gap-4">
+          <div class="flex flex-wrap items-center justify-between gap-3">
+            <h2 class="text-2xl font-bold lg:text-3xl">
+              {category.name}
+              <span class="text-muted/50">({toolsInCategory.length})</span>
+            </h2>
+
+            <a
+              href={`/categories/${slugify(category.name, { decamelize: true })}`}
+            >
+              <Button variant="primary">View all</Button>
+            </a>
+          </div>
+
+          <Grid>
+            {toolsInCategory.slice(0, 3).map((tool) => (
+              <ToolCard tool={tool} />
+            ))}
+          </Grid>
+        </div>
+      );
+    })
+  }
 </Layout>

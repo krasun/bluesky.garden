@@ -1,7 +1,7 @@
 [
   { "name": "Analytics" },
   { "name": "Scheduling" },
-  { "name": "Extensions" },
   { "name": "Tools" },
+  { "name": "Extensions" },
   { "name": "Starter Packs" }
 ]
