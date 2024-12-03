@@ -1,0 +1,33 @@
+---
+import slugify from "@sindresorhus/slugify";
+import Intro from "~/components/ui/Intro.astro";
+import Layout from "~/layouts/Layout.astro";
+
+import categories from "~/categories.json";
+import ToolCard from "~/components/ToolCard.astro";
+import Grid from "~/components/ui/Grid.astro";
+import tools from "~/tools.json";
+
+export async function getStaticPaths() {
+  return categories.map((category) => ({
+    params: { category: slugify(category.name, { decamelize: true }) },
+    props: { category },
+  }));
+}
+
+const { category } = Astro.props;
+
+const toolsInCategory = tools.filter(({ categories }) =>
+  categories.includes(category.name)
+);
+---
+
+<Layout title={`Bluesky ${category.name}`}>
+  <Intro class="w-full">
+    <Fragment slot="title">{`Bluesky ${category.name}`}</Fragment>
+  </Intro>
+
+  <Grid>
+    {toolsInCategory.map((tool) => <ToolCard tool={tool} />)}
+  </Grid>
+</Layout>
