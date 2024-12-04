@@ -26,6 +26,11 @@
     "description": "Social media scheduling, engagement, and analytics for Bluesky and 11 other platforms."
   },
   {
+    "name": "BlueSky Image BG Framer",
+    "url": "https://chromewebstore.google.com/detail/bluesky-image-bg-framer/ebadbopjnnllkplbkebpndhenfaefodg",
+    "description": "Add a nice gradient background to your BlueSky images directly from the post."
+  },
+  {
     "name": "Bluesky Counter",
     "url": "https://blueskycounter.com",
     "description": "A simple follower tracker for your Bluesky profile.",
