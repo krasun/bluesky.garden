@@ -1,20 +1,25 @@
 ---
-import Card from "~/components/ui/Card.astro";
-import Layout from "../layouts/Layout.astro";
+import slugify from "@sindresorhus/slugify";
+import ToolCard from "~/components/ToolCard.astro";
+import Button from "~/components/ui/Button.astro";
+import Grid from "~/components/ui/Grid.astro";
+import Intro from "~/components/ui/Intro.astro";
+import Layout from "~/layouts/Layout.astro";
 
-import recommendations from "../recommendations.json";
-import tools from "../tools.json";
+import categories from "~/categories.json";
+import recommendations from "~/recommendations.json";
+import tools from "~/tools.json";
 ---
 
 <Layout
-  title="Bluesky.Garden — An open directory of Bluesky applications, tools, and resources."
+  title="An open directory of Bluesky applications, tools, and resources."
 >
-  <header>
-    <h1 class="text-4xl font-bold tracking-tight text-balance md:text-5xl">
+  <Intro>
+    <Fragment slot="title">
       An open directory of <span class="underline text-primary">Bluesky</span>
-      applications, tools, and resources.
-    </h1>
-  </header>
+      applications, tools, and resources.</Fragment
+    >
+  </Intro>
 
   <div class="flex flex-col gap-6 sm:gap-4">
     {
@@ -42,17 +47,34 @@ import tools from "../tools.json";
     }
   </div>
 
-  <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 md:gap-6">
-    {
-      tools.map((tool) => (
-        <Card
-          href={tool.url}
-          name={tool.name}
-          description={tool.description}
-          target="_blank"
-          rel="noopener noreferrer"
-        />
-      ))
-    }
-  </div>
+  {
+    categories.map((category) => {
+      const toolsInCategory = tools.filter(({ categories }) =>
+        categories.includes(category.name)
+      );
+
+      return (
+        <div class="flex flex-col gap-6 sm:gap-4">
+          <div class="flex flex-wrap items-center justify-between gap-3">
+            <h2 class="text-2xl font-bold lg:text-3xl">
+              {category.name}
+              <span class="text-muted/50">({toolsInCategory.length})</span>
+            </h2>
+
+            <a
+              href={`/categories/${slugify(category.name, { decamelize: true })}`}
+            >
+              <Button variant="primary">View all</Button>
+            </a>
+          </div>
+
+          <Grid>
+            {toolsInCategory.slice(0, 3).map((tool) => (
+              <ToolCard tool={tool} />
+            ))}
+          </Grid>
+        </div>
+      );
+    })
+  }
 </Layout>

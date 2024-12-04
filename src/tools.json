@@ -2,121 +2,177 @@
   {
     "name": "Airview",
     "url": "https://airview.so/",
-    "description": "Bluesky publishing and analytics."
+    "description": "Bluesky publishing and analytics.",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Analytics", "Scheduling"]
   },
   {
     "name": "Typefully",
     "url": "https://typefully.com/",
-    "description": "A simple and beautiful way to write and schedule posts on Bluesky (plus X, Mastodon, LinkedIn and Threads)."
+    "description": "A simple and beautiful way to write and schedule posts on Bluesky (plus X, Mastodon, LinkedIn and Threads).",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Scheduling"]
   },
   {
     "name": "Bluesky Analytics",
     "url": "https://bsky-analytics.com/",
-    "description": "A simple follower tracker for your Bluesky profile."
+    "description": "A simple follower tracker for your Bluesky profile.",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Analytics"]
+  },
+  {
+    "name": "Postpone",
+    "url": "https://www.postpone.app",
+    "description": "Social media scheduling, engagement, and analytics for Bluesky and 11 other platforms."
+  },
+  {
+    "name": "BlueSky Image BG Framer",
+    "url": "https://chromewebstore.google.com/detail/bluesky-image-bg-framer/ebadbopjnnllkplbkebpndhenfaefodg",
+    "description": "Add a nice gradient background to your BlueSky images directly from the post."
   },
   {
     "name": "Bluesky Counter",
     "url": "https://blueskycounter.com",
-    "description": "A simple follower tracker for your Bluesky profile."
+    "description": "A simple follower tracker for your Bluesky profile.",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Analytics"]
   },
   {
     "name": "Pinsky",
     "url": "https://pinsky.app/",
-    "description": "Charts to analyze activities and engagements on Bluesky."
+    "description": "Charts to analyze activities and engagements on Bluesky.",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Analytics"]
   },
   {
     "name": "Blueview",
     "url": "https://blueview.app/",
-    "description": "Get powerful insights and analytics for your Bluesky social presence."
+    "description": "Get powerful insights and analytics for your Bluesky social presence.",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Analytics"]
   },
   {
     "name": "skircle.me",
     "url": "https://skircle.me",
-    "description": "Renders your Bluesky (the most engaging) friends."
+    "description": "Renders your Bluesky (the most engaging) friends.",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Tools"]
   },
   {
     "name": "Sky Follower Bridge",
     "url": "https://www.sky-follower-bridge.dev",
-    "description": "Find X users on Bluesky."
+    "description": "Find X users on Bluesky.",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Tools"]
   },
   {
     "name": "OneUp",
     "url": "https://www.oneupapp.io",
-    "description": "Social media management for Bluesky and other platforms with unlimited accounts."
+    "description": "Social media management for Bluesky and other platforms with unlimited accounts.",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Scheduling"]
   },
   {
     "name": "Vanity Blue",
     "url": "https://vanity.blue/",
-    "description": "Get a custom Bluesky Handle."
+    "description": "Get a custom Bluesky Handle.",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Tools"]
   },
   {
-    "name": "Blueksy by the second",
+    "name": "Bluesky by the second",
     "url": "https://sky.flikq.dev",
-    "description": "A Bluesky realtime data visualizer."
+    "description": "A Bluesky realtime data visualizer.",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Tools"]
   },
   {
     "name": "Bluesky Packs",
     "url": "https://blueskypacks.com",
-    "description": "Starter packs made easy."
+    "description": "Starter packs made easy.",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Starter Packs"]
   },
   {
     "name": "Bluesky Meter",
     "url": "https://blueskymeter.com",
-    "description": "Simple and enjoyable Bluesky Analytics (with posting streak)."
+    "description": "Simple and enjoyable Bluesky Analytics (with posting streak).",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Analytics"]
   },
   {
     "name": "Thriendly",
     "url": "https://thriendly.com/threads-formatter",
-    "description": "Bluesky Post formatter & Viral threads scheduler for Bluesky & Threads"
+    "description": "Bluesky Post formatter & Viral threads scheduler for Bluesky & Threads",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Scheduling"]
   },
   {
     "name": "Bluesky Copilot",
     "url": "https://blueskycopilot.yourgenlab.com",
-    "description": "Get tailored posts based on your past ones."
+    "description": "Get tailored posts based on your past ones.",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Scheduling"]
   },
   {
     "name": "Realtime Bluesky Metrics",
     "url": "https://realtime.blue/",
-    "description": "Enter your Bluesky handle to get your realtime metrics 👇."
+    "description": "Enter your Bluesky handle to get your realtime metrics 👇.",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Analytics"]
   },
   {
     "name": "Remind Me Of This",
     "url": "https://bsky.app/profile/remindmeofth.is",
-    "description": "Get reminded about a post or thread. Just tag the bot as example: @remindmeofth.is in 3 months."
+    "description": "Get reminded about a post or thread. Just tag the bot as example: @remindmeofth.is in 3 months.",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Tools"]
   },
   {
     "name": "Top Bluesky followers",
     "url": "https://topblueskyfollowers.com/",
-    "description": "Which of your followers has the most followers? Find out using this tool"
+    "description": "Which of your followers has the most followers? Find out using this tool",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Tools"]
   },
   {
     "name": "Bluesky Scheduler",
     "url": "https://www.blueskyscheduler.com/",
-    "description": "Draft and schedule posts on Bluesky"
+    "description": "Draft and schedule posts on Bluesky",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Scheduling"]
   },
   {
     "name": "Bluesky Roast",
     "url": "https://blueskyroast.com",
-    "description": "Discover Your Bluesky Digital Persona"
+    "description": "Discover Your Bluesky Digital Persona",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Tools"]
   },
   {
     "name": "ThunderSky",
     "url": "https://news.thundersky.app",
-    "description": "If the Bluesky firehose and the Hacker News ranking algorithm ever got together and had a cyber baby, this is what it might look like."
+    "description": "If the Bluesky firehose and the Hacker News ranking algorithm ever got together and had a cyber baby, this is what it might look like.",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Tools"]
   },
   {
     "name": "Monadsky",
     "url": "https://monadsky.com/",
-    "description": "Schedule your posts, threads, and images in advance."
-  },
-  {
-    "name": "BluePeers",
-    "url": "https://bluepeers.app/",
-    "description": "Find & engage with your active Bluesky peers through a simple Chrome extension."
+    "description": "Schedule your posts, threads, and images in advance.",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Scheduling"]
   },
   {
     "name": "Bluesky Keywords",
     "url": "https://blueskykeywords.com/",
     "description": "Never Miss a Mention on Bluesky. Track keywords, uncover trends, and take action"
+  },
+  {
+    "name": "BluePeers",
+    "url": "https://bluepeers.app/",
+    "description": "Find & engage with your active Bluesky peers through a simple Chrome extension.",
+    "screenshotUrl": "https://devsuite.s3.us-east-1.amazonaws.com/tools/screenshotone/screenshot.webp",
+    "categories": ["Extensions"]
   }
 ]

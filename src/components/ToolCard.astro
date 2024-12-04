@@ -1,0 +1,19 @@
+---
+import slugify from "@sindresorhus/slugify";
+import Card from "~/components/ui/Card.astro";
+import type tools from "~/tools.json";
+
+type Props = {
+  tool: (typeof tools)[number];
+};
+
+const { tool } = Astro.props as Props;
+---
+
+<Card
+  href={`/tools/${slugify(tool.name, { decamelize: true })}`}
+  name={tool.name}
+  description={tool.description}
+  faviconUrl={`https://www.google.com/s2/favicons?sz=128&domain_url=${tool.url}`}
+  buttonText="Read more"
+/>
