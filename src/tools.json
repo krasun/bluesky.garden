@@ -233,5 +233,14 @@
     "categories": [
       "Extensions"
     ]
+  },
+  {
+    "name": "Professor Blue",
+    "url": "https://professor.blue",
+    "description": "Post analysis, AI insights and Recommendations for BlueSky",
+    "screenshotPath": "",
+    "categories": [
+      "Tools"
+    ]
   }
 ]
