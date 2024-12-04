@@ -1,0 +1,34 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+import Heading from "~/components/ui/Heading.astro";
+
+type Props = HTMLAttributes<"div"> & {
+  title?: string;
+};
+
+const { class: className, ...props } = Astro.props;
+---
+
+<div
+  class:list={[className, "flex flex-col items-start gap-4 md:gap-6"]}
+  {...props}
+>
+  {
+    Astro.slots.has("title") && (
+      <Heading>
+        <slot name="title" />
+      </Heading>
+    )
+  }
+
+  {
+    Astro.slots.has("description") && (
+      <h2 class="text-lg max-w-2xl text-secondary text-pretty md:text-xl/relaxed">
+        <slot name="description" />
+      </h2>
+    )
+  }
+
+  <slot />
+</div>

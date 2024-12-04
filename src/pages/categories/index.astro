@@ -1,0 +1,34 @@
+---
+import slugify from "@sindresorhus/slugify";
+import Card from "~/components/ui/Card.astro";
+import Grid from "~/components/ui/Grid.astro";
+import Intro from "~/components/ui/Intro.astro";
+import Layout from "~/layouts/Layout.astro";
+
+import categories from "~/categories.json";
+import tools from "~/tools.json";
+---
+
+<Layout title="Categories">
+  <Intro class="w-full">
+    <Fragment slot="title">Categories</Fragment>
+  </Intro>
+
+  <Grid>
+    {
+      categories.map((category) => {
+        const toolCount = tools.filter(({ categories }) =>
+          categories.includes(category.name)
+        ).length;
+
+        return (
+          <Card
+            href={`/categories/${slugify(category.name, { decamelize: true })}`}
+            name={category.name}
+            description={`${toolCount} ${toolCount === 1 ? "tool" : "tools"}`}
+          />
+        );
+      })
+    }
+  </Grid>
+</Layout>
