@@ -17,6 +17,8 @@ export async function getStaticPaths() {
 }
 
 const { tool } = Astro.props;
+
+const screenshot = tool.screenshotPath ?  (await import(`../../${tool.screenshotPath}`)).default : null;
 ---
 
 <Layout title={tool.name}>
@@ -54,9 +56,9 @@ const { tool } = Astro.props;
     </Intro>
 
     {
-      tool.screenshotUrl && (
+      screenshot && (
         <Image
-          src={tool.screenshotUrl}
+          src={screenshot}
           alt={tool.name}
           height={720}
           width={1280}

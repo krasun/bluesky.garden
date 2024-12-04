@@ -7,17 +7,20 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "generate-screenshots": "tsx src/scripts/generate-screenshots.ts"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/tailwind": "^5.1.2",
     "@sindresorhus/slugify": "^2.2.1",
     "astro": "^5.0.1",
+    "screenshotone-api-sdk": "^1.1.16",
     "tailwindcss": "^3.4.15",
     "typescript": "^5.7.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4"
+    "@biomejs/biome": "1.9.4",
+    "tsx": "^4.19.2"
   }
 }
