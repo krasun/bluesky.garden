@@ -18,7 +18,16 @@ export async function getStaticPaths() {
 
 const { tool } = Astro.props;
 
-const screenshot = tool.screenshotPath ?  (await import(`../../${tool.screenshotPath}`)).default : null;
+let screenshot: ImageMetadata | null = null;
+const importedImages = await import.meta.glob<{ default: ImageMetadata }>(
+    "~/assets/screenshots/tools/*.webp"
+);
+
+for (const imagePath of Object.keys(importedImages)) {
+    if (imagePath.includes(tool.screenshotPath)) {
+        screenshot = (await importedImages[imagePath]()).default;
+    }
+}
 ---
 
 <Layout title={tool.name}>
