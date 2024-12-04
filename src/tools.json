@@ -164,6 +164,11 @@
     "categories": ["Scheduling"]
   },
   {
+    "name": "Bluesky Keywords",
+    "url": "https://blueskykeywords.com/",
+    "description": "Never Miss a Mention on Bluesky. Track keywords, uncover trends, and take action"
+  },
+  {
     "name": "BluePeers",
     "url": "https://bluepeers.app/",
     "description": "Find & engage with your active Bluesky peers through a simple Chrome extension.",
