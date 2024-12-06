@@ -127,6 +127,15 @@
     ]
   },
   {
+    "name": "Starter Packs",
+    "url": "https://wwww.starterpacks.net",
+    "description": "Explore and discover Starter Packs and Profiles from Bluesky.",
+    "screenshotPath": "assets/screenshots/tools/starter-packs.webp",
+    "categories": [
+      "Starter Packs"
+    ]
+  },
+  {
     "name": "Bluesky Meter",
     "url": "https://blueskymeter.com",
     "description": "Simple and enjoyable Bluesky Analytics (with posting streak).",
