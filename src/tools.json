@@ -242,5 +242,14 @@
     "categories": [
       "Tools"
     ]
+  },
+  {
+    "name": "BlueskyAudit",
+    "url": "https://blueskyaudit.com/",
+    "description": "Fun analytics tool to share your Bluesky stats and track followers, posts, and engagement.",
+    "screenshotPath": "assets/screenshots/tools/blueskyaudit.webp",
+    "categories": [
+      "Tools"
+    ]
   }
 ]
