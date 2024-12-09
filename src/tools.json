@@ -1,212 +1,417 @@
 [
   {
     "name": "Airview",
-    "url": "https://airview.so/",
-    "description": "Bluesky publishing and analytics.",
+    "url": "https://airview.so",
+    "description": "A Bluesky publishing and analytics tool.",
     "screenshotPath": "assets/screenshots/tools/airview.webp",
-    "categories": ["Analytics", "Scheduling"]
+    "categories": [
+      "Analytics",
+      "Scheduling"
+    ]
   },
   {
-    "name": "Typefully",
-    "url": "https://typefully.com/",
-    "description": "A simple and beautiful way to write and schedule posts on Bluesky (plus X, Mastodon, LinkedIn and Threads).",
-    "screenshotPath": "assets/screenshots/tools/typefully.webp",
-    "categories": ["Scheduling"]
+    "name": "Bcounter",
+    "url": "https://bcounter.nat.vg",
+    "description": "A near real-time user counter for Bluesky.",
+    "screenshotPath": "assets/screenshots/tools/bcounter.webp",
+    "categories": [
+      "Analytics"
+    ]
+  },
+  {
+    "name": "BluePeers",
+    "url": "https://bluepeers.app",
+    "description": "A Chrome extension to find and engage with active Bluesky users.",
+    "screenshotPath": "assets/screenshots/tools/blue-peers.webp",
+    "categories": [
+      "Extensions"
+    ]
   },
   {
     "name": "Bluesky Analytics",
-    "url": "https://bsky-analytics.com/",
+    "url": "https://bsky-analytics.com",
     "description": "A simple follower tracker for your Bluesky profile.",
     "screenshotPath": "assets/screenshots/tools/bluesky-analytics.webp",
-    "categories": ["Analytics"]
+    "categories": [
+      "Analytics"
+    ]
   },
   {
-    "name": "Postpone",
-    "url": "https://www.postpone.app",
-    "description": "Social media scheduling, engagement, and analytics for Bluesky and 11 other platforms.",
-    "screenshotPath": "assets/screenshots/tools/postpone.webp",
-    "categories": ["Scheduling"]
+    "name": "Bluesky by the second",
+    "url": "https://sky.flikq.dev",
+    "description": "A real-time data visualizer for Bluesky.",
+    "screenshotPath": "assets/screenshots/tools/bluesky-by-the-second.webp",
+    "categories": [
+      "Tools"
+    ]
   },
   {
-    "name": "BlueSky Image BG Framer",
-    "url": "https://chromewebstore.google.com/detail/bluesky-image-bg-framer/ebadbopjnnllkplbkebpndhenfaefodg",
-    "description": "Add a nice gradient background to your BlueSky images directly from the post.",
-    "screenshotPath": "assets/screenshots/tools/blue-sky-image-bg-framer.webp",
-    "categories": ["Extensions"]
+    "name": "Bluesky Copilot",
+    "url": "https://blueskycopilot.yourgenlab.com",
+    "description": "A tool that generates posts based on your posting history.",
+    "screenshotPath": "assets/screenshots/tools/bluesky-copilot.webp",
+    "categories": [
+      "Scheduling"
+    ]
   },
   {
     "name": "Bluesky Counter",
     "url": "https://blueskycounter.com",
     "description": "A simple follower tracker for your Bluesky profile.",
     "screenshotPath": "assets/screenshots/tools/bluesky-counter.webp",
-    "categories": ["Analytics"]
+    "categories": [
+      "Analytics"
+    ]
   },
   {
-    "name": "Pinsky",
-    "url": "https://pinsky.app/",
-    "description": "Charts to analyze activities and engagements on Bluesky.",
-    "screenshotPath": "assets/screenshots/tools/pinsky.webp",
-    "categories": ["Analytics"]
+    "name": "Bluesky Feed Creator",
+    "url": "https://blueskyfeedcreator.com",
+    "description": "A no-code tool to design and customize Bluesky feeds.",
+    "screenshotPath": "assets/screenshots/tools/bluesky-feed-creator.webp",
+    "categories": [
+      "Tools"
+    ]
   },
   {
-    "name": "Blueview",
-    "url": "https://blueview.app/",
-    "description": "Get powerful insights and analytics for your Bluesky social presence.",
-    "screenshotPath": "assets/screenshots/tools/blueview.webp",
-    "categories": ["Analytics"]
+    "name": "Bluesky Handle Directory",
+    "url": "https://blue.mackuba.eu/directory/",
+    "description": "A directory of Bluesky handles sorted by TLD.",
+    "screenshotPath": "assets/screenshots/tools/bluesky-handle-directory.webp",
+    "categories": [
+      "Tools"
+    ]
   },
   {
-    "name": "skircle.me",
-    "url": "https://skircle.me",
-    "description": "Renders your Bluesky (the most engaging) friends.",
-    "screenshotPath": "assets/screenshots/tools/skircle.webp",
-    "categories": ["Tools"]
+    "name": "BlueSky Image BG Framer",
+    "url": "https://chromewebstore.google.com/detail/bluesky-image-bg-framer/ebadbopjnnllkplbkebpndhenfaefodg",
+    "description": "A browser extension that adds gradient backgrounds to Bluesky images.",
+    "screenshotPath": "assets/screenshots/tools/blue-sky-image-bg-framer.webp",
+    "categories": [
+      "Extensions"
+    ]
   },
   {
-    "name": "Sky Follower Bridge",
-    "url": "https://www.sky-follower-bridge.dev",
-    "description": "Find X users on Bluesky.",
-    "screenshotPath": "assets/screenshots/tools/sky-follower-bridge.webp",
-    "categories": ["Tools"]
+    "name": "Bluesky Keywords",
+    "url": "https://blueskykeywords.com",
+    "description": "A tool to track keywords and uncover trends on Bluesky.",
+    "screenshotPath": "assets/screenshots/tools/bluesky-keywords.webp",
+    "categories": [
+      "Scheduling"
+    ]
   },
   {
-    "name": "OneUp",
-    "url": "https://www.oneupapp.io",
-    "description": "Social media management for Bluesky and other platforms with unlimited accounts.",
-    "screenshotPath": "assets/screenshots/tools/one-up.webp",
-    "categories": ["Scheduling"]
-  },
-  {
-    "name": "Vanity Blue",
-    "url": "https://vanity.blue/",
-    "description": "Get a custom Bluesky Handle.",
-    "screenshotPath": "assets/screenshots/tools/vanity-blue.webp",
-    "categories": ["Tools"]
-  },
-  {
-    "name": "Bluesky by the second",
-    "url": "https://sky.flikq.dev",
-    "description": "A Bluesky realtime data visualizer.",
-    "screenshotPath": "assets/screenshots/tools/bluesky-by-the-second.webp",
-    "categories": ["Tools"]
-  },
-  {
-    "name": "Bluesky Packs",
-    "url": "https://blueskypacks.com",
-    "description": "Starter packs made easy.",
-    "screenshotPath": "assets/screenshots/tools/bluesky-packs.webp",
-    "categories": ["Starter Packs"]
-  },
-  {
-    "name": "Starter Packs",
-    "url": "https://wwww.starterpacks.net",
-    "description": "Explore and discover Starter Packs and Profiles from Bluesky.",
-    "screenshotPath": "assets/screenshots/tools/starter-packs.webp",
-    "categories": ["Starter Packs"]
+    "name": "Bluesky Labelers",
+    "url": "https://www.bluesky-labelers.io",
+    "description": "A searchable index of Bluesky labelers.",
+    "screenshotPath": "assets/screenshots/tools/bluesky-labelers.webp",
+    "categories": [
+      "Tools"
+    ]
   },
   {
     "name": "Bluesky Meter",
     "url": "https://blueskymeter.com",
-    "description": "Simple and enjoyable Bluesky Analytics (with posting streak).",
+    "description": "A simple analytics tool with posting streak tracking.",
     "screenshotPath": "assets/screenshots/tools/bluesky-meter.webp",
-    "categories": ["Analytics"]
+    "categories": [
+      "Analytics"
+    ]
   },
   {
-    "name": "Thriendly",
-    "url": "https://thriendly.com/threads-formatter",
-    "description": "Bluesky Post formatter & Viral threads scheduler for Bluesky & Threads",
-    "screenshotPath": "assets/screenshots/tools/thriendly.webp",
-    "categories": ["Scheduling"]
-  },
-  {
-    "name": "Bluesky Copilot",
-    "url": "https://blueskycopilot.yourgenlab.com",
-    "description": "Get tailored posts based on your past ones.",
-    "screenshotPath": "assets/screenshots/tools/bluesky-copilot.webp",
-    "categories": ["Scheduling"]
-  },
-  {
-    "name": "Realtime Bluesky Metrics",
-    "url": "https://realtime.blue/",
-    "description": "Enter your Bluesky handle to get your realtime metrics 👇.",
-    "screenshotPath": "assets/screenshots/tools/realtime-bluesky-metrics.webp",
-    "categories": ["Analytics"]
-  },
-  {
-    "name": "Remind Me Of This",
-    "url": "https://bsky.app/profile/remindmeofth.is",
-    "description": "Get reminded about a post or thread. Just tag the bot as example: @remindmeofth.is in 3 months.",
-    "screenshotPath": "assets/screenshots/tools/remind-me-of-this.webp",
-    "categories": ["Tools"]
-  },
-  {
-    "name": "Top Bluesky followers",
-    "url": "https://topblueskyfollowers.com/",
-    "description": "Which of your followers has the most followers? Find out using this tool",
-    "screenshotPath": "assets/screenshots/tools/top-bluesky-followers.webp",
-    "categories": ["Tools"]
-  },
-  {
-    "name": "Bluesky Scheduler",
-    "url": "https://www.blueskyscheduler.com/",
-    "description": "Draft and schedule posts on Bluesky",
-    "screenshotPath": "assets/screenshots/tools/bluesky-scheduler.webp",
-    "categories": ["Scheduling"]
+    "name": "Bluesky Packs",
+    "url": "https://blueskypacks.com",
+    "description": "A tool to create and manage Bluesky starter packs.",
+    "screenshotPath": "assets/screenshots/tools/bluesky-packs.webp",
+    "categories": [
+      "Starter Packs"
+    ]
   },
   {
     "name": "Bluesky Roast",
     "url": "https://blueskyroast.com",
-    "description": "Discover Your Bluesky Digital Persona",
+    "description": "A tool to analyze your Bluesky digital persona.",
     "screenshotPath": "assets/screenshots/tools/bluesky-roast.webp",
-    "categories": ["Tools"]
+    "categories": [
+      "Tools"
+    ]
   },
   {
-    "name": "ThunderSky",
-    "url": "https://news.thundersky.app",
-    "description": "If the Bluesky firehose and the Hacker News ranking algorithm ever got together and had a cyber baby, this is what it might look like.",
-    "screenshotPath": "assets/screenshots/tools/thunder-sky.webp",
-    "categories": ["Tools"]
+    "name": "Bluesky Scheduler",
+    "url": "https://www.blueskyscheduler.com",
+    "description": "A tool to draft and schedule Bluesky posts.",
+    "screenshotPath": "assets/screenshots/tools/bluesky-scheduler.webp",
+    "categories": [
+      "Scheduling"
+    ]
+  },
+  {
+    "name": "Bluesky Social Profile Statistics",
+    "url": "https://bstat.app",
+    "description": "A tool that tracks various Bluesky profile statistics.",
+    "screenshotPath": "assets/screenshots/tools/bstat.webp",
+    "categories": [
+      "Analytics"
+    ]
+  },
+  {
+    "name": "Bluesky Stats",
+    "url": "https://vqv.app/stats",
+    "description": "A tool for viewing Bluesky statistics and top lists.",
+    "screenshotPath": "assets/screenshots/tools/bluesky-stats.webp",
+    "categories": [
+      "Analytics"
+    ]
+  },
+  {
+    "name": "BlueskyAudit",
+    "url": "https://blueskyaudit.com",
+    "description": "An analytics tool to track and share Bluesky statistics.",
+    "screenshotPath": "assets/screenshots/tools/blueskyaudit.webp",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "Bluestream",
+    "url": "https://bluestream.deno.dev",
+    "description": "An RSS feed generator for Bluesky.",
+    "screenshotPath": "assets/screenshots/tools/bluestream.webp",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "Blueview",
+    "url": "https://blueview.app",
+    "description": "An analytics tool for your Bluesky social presence.",
+    "screenshotPath": "assets/screenshots/tools/blueview.webp",
+    "categories": [
+      "Analytics"
+    ]
+  },
+  {
+    "name": "Dopplersky",
+    "url": "https://dopplersky.com",
+    "description": "A tool for profile tracking and insights on Bluesky.",
+    "screenshotPath": "assets/screenshots/tools/dopplersky.webp",
+    "categories": [
+      "Analytics"
+    ]
+  },
+  {
+    "name": "goodfeeds",
+    "url": "https://goodfeeds.co",
+    "description": "A directory and builder for custom Bluesky feeds.",
+    "screenshotPath": "assets/screenshots/tools/goodfeeds.webp",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "Graze",
+    "url": "https://www.graze.social",
+    "description": "A no-code platform to create and optimize Bluesky algorithms.",
+    "screenshotPath": "assets/screenshots/tools/graze.webp",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "Label Scanner",
+    "url": "https://blue.mackuba.eu/scanner/",
+    "description": "A tool to view all labels applied to a Bluesky account.",
+    "screenshotPath": "assets/screenshots/tools/label-scanner.webp",
+    "categories": [
+      "Tools"
+    ]
   },
   {
     "name": "Monadsky",
-    "url": "https://monadsky.com/",
-    "description": "Schedule your posts, threads, and images in advance.",
+    "url": "https://monadsky.com",
+    "description": "A tool to schedule posts, threads, and images in advance.",
     "screenshotPath": "assets/screenshots/tools/monadsky.webp",
-    "categories": ["Scheduling"]
+    "categories": [
+      "Scheduling"
+    ]
   },
   {
-    "name": "Bluesky Keywords",
-    "url": "https://blueskykeywords.com/",
-    "description": "Never Miss a Mention on Bluesky. Track keywords, uncover trends, and take action",
-    "screenshotPath": "assets/screenshots/tools/bluesky-keywords.webp",
-    "categories": ["Scheduling"]
+    "name": "OneUp",
+    "url": "https://www.oneupapp.io",
+    "description": "A social media management tool for Bluesky with unlimited accounts.",
+    "screenshotPath": "assets/screenshots/tools/one-up.webp",
+    "categories": [
+      "Scheduling"
+    ]
   },
   {
-    "name": "BluePeers",
-    "url": "https://bluepeers.app/",
-    "description": "Find & engage with your active Bluesky peers through a simple Chrome extension.",
-    "screenshotPath": "assets/screenshots/tools/blue-peers.webp",
-    "categories": ["Extensions"]
+    "name": "Pinsky",
+    "url": "https://pinsky.app",
+    "description": "A tool that provides charts to analyze Bluesky activities and engagements.",
+    "screenshotPath": "assets/screenshots/tools/pinsky.webp",
+    "categories": [
+      "Analytics"
+    ]
+  },
+  {
+    "name": "Postpone",
+    "url": "https://www.postpone.app",
+    "description": "A social media management tool for Bluesky and other platforms.",
+    "screenshotPath": "assets/screenshots/tools/postpone.webp",
+    "categories": [
+      "Scheduling"
+    ]
   },
   {
     "name": "Professor Blue",
     "url": "https://professor.blue",
-    "description": "Post analysis, AI insights and Recommendations for BlueSky",
+    "description": "A tool for post analysis and AI insights on Bluesky.",
     "screenshotPath": "assets/screenshots/tools/professor-blue.webp",
-    "categories": ["Tools"]
+    "categories": [
+      "Tools"
+    ]
   },
   {
-    "name": "BlueskyAudit",
-    "url": "https://blueskyaudit.com/",
-    "description": "Fun analytics tool to share your Bluesky stats and track followers, posts, and engagement.",
-    "screenshotPath": "assets/screenshots/tools/blueskyaudit.webp",
-    "categories": ["Tools"]
+    "name": "Realtime Bluesky Metrics",
+    "url": "https://realtime.blue",
+    "description": "A tool that provides real-time metrics for your Bluesky handle.",
+    "screenshotPath": "assets/screenshots/tools/realtime-bluesky-metrics.webp",
+    "categories": [
+      "Analytics"
+    ]
+  },
+  {
+    "name": "Remind Me Of This",
+    "url": "https://bsky.app/profile/remindmeofth.is",
+    "description": "A bot that sends reminders about posts or threads.",
+    "screenshotPath": "assets/screenshots/tools/remind-me-of-this.webp",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "SkeetStats",
+    "url": "https://skeetstats.xyz",
+    "description": "A tool for tracking posting statistics on Bluesky.",
+    "screenshotPath": "assets/screenshots/tools/skeetstats.webp",
+    "categories": [
+      "Analytics"
+    ]
+  },
+  {
+    "name": "skircle.me",
+    "url": "https://skircle.me",
+    "description": "A tool that visualizes your most engaging Bluesky friends.",
+    "screenshotPath": "assets/screenshots/tools/skircle.webp",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "Sky Follower Bridge",
+    "url": "https://www.sky-follower-bridge.dev",
+    "description": "A tool to find X users on Bluesky.",
+    "screenshotPath": "assets/screenshots/tools/sky-follower-bridge.webp",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "Skycle.app",
+    "url": "https://skycle.app",
+    "description": "A tool for creating customizable interaction circles.",
+    "screenshotPath": "assets/screenshots/tools/skycle.webp",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "SkyFeed",
+    "url": "https://skyfeed.app",
+    "description": "An alternative web client with custom feed building capabilities.",
+    "screenshotPath": "assets/screenshots/tools/skyfeed.webp",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "Starter Packs",
+    "url": "https://wwww.starterpacks.net",
+    "description": "A platform to explore and discover Bluesky starter packs and profiles.",
+    "screenshotPath": "assets/screenshots/tools/starter-packs.webp",
+    "categories": [
+      "Starter Packs"
+    ]
+  },
+  {
+    "name": "Stats for Bluesky by Jaz",
+    "url": "https://bsky.jazco.dev",
+    "description": "A tool that provides aggregate statistics for indexed Bluesky posts.",
+    "screenshotPath": "assets/screenshots/tools/stats-for-bluesky.webp",
+    "categories": [
+      "Analytics"
+    ]
   },
   {
     "name": "The Blue",
     "url": "https://theblue.social",
-    "description": "Follow-back followers, unfollow non-mutuals, Browse, filter and discover Bluesky Starter Packs",
+    "description": "A tool to manage follows and discover starter packs on Bluesky.",
     "screenshotPath": "assets/screenshots/tools/theblue.social-unfollow.png",
-    "categories": ["Tools"]
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "The Ultimate Directory",
+    "url": "https://blueskydirectory.com",
+    "description": "A searchable index of Bluesky starter packs and lists.",
+    "screenshotPath": "assets/screenshots/tools/ultimate-directory.webp",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "Thriendly",
+    "url": "https://thriendly.com/threads-formatter",
+    "description": "A post formatter and thread scheduler for Bluesky and Threads.",
+    "screenshotPath": "assets/screenshots/tools/thriendly.webp",
+    "categories": [
+      "Scheduling"
+    ]
+  },
+  {
+    "name": "ThunderSky",
+    "url": "https://news.thundersky.app",
+    "description": "A Hacker News-style ranking system for Bluesky content.",
+    "screenshotPath": "assets/screenshots/tools/thunder-sky.webp",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "Top Bluesky followers",
+    "url": "https://topblueskyfollowers.com",
+    "description": "A tool to find your followers with the most followers.",
+    "screenshotPath": "assets/screenshots/tools/top-bluesky-followers.webp",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
+    "name": "Typefully",
+    "url": "https://typefully.com",
+    "description": "A simple way to write and schedule posts on Bluesky and other platforms.",
+    "screenshotPath": "assets/screenshots/tools/typefully.webp",
+    "categories": [
+      "Scheduling"
+    ]
+  },
+  {
+    "name": "Vanity Blue",
+    "url": "https://vanity.blue",
+    "description": "A service to get a custom Bluesky handle.",
+    "screenshotPath": "assets/screenshots/tools/vanity-blue.webp",
+    "categories": [
+      "Tools"
+    ]
   }
 ]
