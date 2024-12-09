@@ -8,7 +8,8 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "generate-screenshots": "tsx src/scripts/generate-screenshots.ts"
+    "generate-screenshots": "tsx src/scripts/generate-screenshots.ts",
+    "process-tools": "tsx src/scripts/process-tools.ts"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
