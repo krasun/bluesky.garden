@@ -39,6 +39,16 @@
     "faviconPath": "assets/favicons/tools/bluesky-analytics.png"
   },
   {
+    "name": "Bluesky Banner",
+    "url": "https://bskybanner.com",
+    "description": "Followers growth stats right in your Bluesky banner.",
+    "screenshotPath": "assets/screenshots/tools/bluesky-banner.webp",
+    "categories": [
+      "Analytics"
+    ],
+    "faviconPath": "assets/favicons/tools/bluesky-banner.png"
+  },
+  {
     "name": "Bluesky by the second",
     "url": "https://sky.flikq.dev",
     "description": "A real-time data visualizer for Bluesky.",
