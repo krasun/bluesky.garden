@@ -8,12 +8,24 @@ type Props = {
 };
 
 const { tool } = Astro.props as Props;
+
+let favicon: ImageMetadata | undefined = undefined;
+const importedImages = await import.meta.glob<{ default: ImageMetadata }>(
+    "~/assets/favicons/tools/*.png"
+);
+
+for (const imagePath of Object.keys(importedImages)) {
+    if (tool.faviconPath && imagePath.includes(tool.faviconPath)) {
+        favicon = (await importedImages[imagePath]()).default;
+    }
+}
 ---
 
 <Card
   href={`/tools/${slugify(tool.name, { decamelize: true })}`}
   name={tool.name}
   description={tool.description}
-  faviconUrl={`https://www.google.com/s2/favicons?sz=128&domain_url=${tool.url}`}
+  favicon={favicon}
   buttonText="Read more"
 />
+

@@ -7,7 +7,8 @@
     "categories": [
       "Analytics",
       "Scheduling"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/airview.png"
   },
   {
     "name": "Bcounter",
@@ -34,7 +35,8 @@
     "screenshotPath": "assets/screenshots/tools/bluesky-analytics.webp",
     "categories": [
       "Analytics"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/bluesky-analytics.png"
   },
   {
     "name": "Bluesky by the second",
@@ -43,7 +45,8 @@
     "screenshotPath": "assets/screenshots/tools/bluesky-by-the-second.webp",
     "categories": [
       "Tools"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/bluesky-by-the-second.png"
   },
   {
     "name": "Bluesky Copilot",
@@ -61,7 +64,8 @@
     "screenshotPath": "assets/screenshots/tools/bluesky-counter.webp",
     "categories": [
       "Analytics"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/bluesky-counter.png"
   },
   {
     "name": "Bluesky Feed Creator",
@@ -70,7 +74,8 @@
     "screenshotPath": "assets/screenshots/tools/bluesky-feed-creator.webp",
     "categories": [
       "Tools"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/bluesky-feed-creator.png"
   },
   {
     "name": "Bluesky Handle Directory",
@@ -88,7 +93,8 @@
     "screenshotPath": "assets/screenshots/tools/blue-sky-image-bg-framer.webp",
     "categories": [
       "Extensions"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/blue-sky-image-bg-framer.png"
   },
   {
     "name": "Bluesky Keywords",
@@ -97,7 +103,8 @@
     "screenshotPath": "assets/screenshots/tools/bluesky-keywords.webp",
     "categories": [
       "Scheduling"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/bluesky-keywords.png"
   },
   {
     "name": "Bluesky Labelers",
@@ -106,7 +113,8 @@
     "screenshotPath": "assets/screenshots/tools/bluesky-labelers.webp",
     "categories": [
       "Tools"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/bluesky-labelers.png"
   },
   {
     "name": "Bluesky Meter",
@@ -115,7 +123,8 @@
     "screenshotPath": "assets/screenshots/tools/bluesky-meter.webp",
     "categories": [
       "Analytics"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/bluesky-meter.png"
   },
   {
     "name": "Bluesky Packs",
@@ -124,7 +133,8 @@
     "screenshotPath": "assets/screenshots/tools/bluesky-packs.webp",
     "categories": [
       "Starter Packs"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/bluesky-packs.png"
   },
   {
     "name": "Bluesky Roast",
@@ -133,7 +143,8 @@
     "screenshotPath": "assets/screenshots/tools/bluesky-roast.webp",
     "categories": [
       "Tools"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/bluesky-roast.png"
   },
   {
     "name": "Bluesky Scheduler",
@@ -142,7 +153,8 @@
     "screenshotPath": "assets/screenshots/tools/bluesky-scheduler.webp",
     "categories": [
       "Scheduling"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/bluesky-scheduler.png"
   },
   {
     "name": "Bluesky Social Profile Statistics",
@@ -151,7 +163,8 @@
     "screenshotPath": "assets/screenshots/tools/bstat.webp",
     "categories": [
       "Analytics"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/bluesky-social-profile-statistics.png"
   },
   {
     "name": "Bluesky Stats",
@@ -160,7 +173,8 @@
     "screenshotPath": "assets/screenshots/tools/bluesky-stats.webp",
     "categories": [
       "Analytics"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/bluesky-stats.png"
   },
   {
     "name": "BlueskyAudit",
@@ -178,7 +192,8 @@
     "screenshotPath": "assets/screenshots/tools/bluestream.webp",
     "categories": [
       "Tools"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/bluestream.png"
   },
   {
     "name": "Blueview",
@@ -187,7 +202,8 @@
     "screenshotPath": "assets/screenshots/tools/blueview.webp",
     "categories": [
       "Analytics"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/blueview.png"
   },
   {
     "name": "Dopplersky",
@@ -196,7 +212,8 @@
     "screenshotPath": "assets/screenshots/tools/dopplersky.webp",
     "categories": [
       "Analytics"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/dopplersky.png"
   },
   {
     "name": "goodfeeds",
@@ -232,7 +249,8 @@
     "screenshotPath": "assets/screenshots/tools/monadsky.webp",
     "categories": [
       "Scheduling"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/monadsky.png"
   },
   {
     "name": "OneUp",
@@ -241,7 +259,8 @@
     "screenshotPath": "assets/screenshots/tools/one-up.webp",
     "categories": [
       "Scheduling"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/one-up.png"
   },
   {
     "name": "Pinsky",
@@ -250,7 +269,8 @@
     "screenshotPath": "assets/screenshots/tools/pinsky.webp",
     "categories": [
       "Analytics"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/pinsky.png"
   },
   {
     "name": "Postpone",
@@ -259,7 +279,8 @@
     "screenshotPath": "assets/screenshots/tools/postpone.webp",
     "categories": [
       "Scheduling"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/postpone.png"
   },
   {
     "name": "Professor Blue",
@@ -277,7 +298,8 @@
     "screenshotPath": "assets/screenshots/tools/realtime-bluesky-metrics.webp",
     "categories": [
       "Analytics"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/realtime-bluesky-metrics.png"
   },
   {
     "name": "Remind Me Of This",
@@ -286,7 +308,8 @@
     "screenshotPath": "assets/screenshots/tools/remind-me-of-this.webp",
     "categories": [
       "Tools"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/remind-me-of-this.png"
   },
   {
     "name": "SkeetStats",
@@ -295,7 +318,8 @@
     "screenshotPath": "assets/screenshots/tools/skeetstats.webp",
     "categories": [
       "Analytics"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/skeet-stats.png"
   },
   {
     "name": "skircle.me",
@@ -304,7 +328,8 @@
     "screenshotPath": "assets/screenshots/tools/skircle.webp",
     "categories": [
       "Tools"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/skircle-me.png"
   },
   {
     "name": "Sky Follower Bridge",
@@ -313,7 +338,8 @@
     "screenshotPath": "assets/screenshots/tools/sky-follower-bridge.webp",
     "categories": [
       "Tools"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/sky-follower-bridge.png"
   },
   {
     "name": "Skycle.app",
@@ -322,7 +348,8 @@
     "screenshotPath": "assets/screenshots/tools/skycle.webp",
     "categories": [
       "Tools"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/skycle-app.png"
   },
   {
     "name": "SkyFeed",
@@ -331,7 +358,8 @@
     "screenshotPath": "assets/screenshots/tools/skyfeed.webp",
     "categories": [
       "Tools"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/sky-feed.png"
   },
   {
     "name": "Starter Packs",
@@ -349,7 +377,8 @@
     "screenshotPath": "assets/screenshots/tools/stats-for-bluesky.webp",
     "categories": [
       "Analytics"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/stats-for-bluesky-by-jaz.png"
   },
   {
     "name": "The Blue",
@@ -358,7 +387,8 @@
     "screenshotPath": "assets/screenshots/tools/theblue.social-unfollow.png",
     "categories": [
       "Tools"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/the-blue.png"
   },
   {
     "name": "The Ultimate Directory",
@@ -367,7 +397,8 @@
     "screenshotPath": "assets/screenshots/tools/ultimate-directory.webp",
     "categories": [
       "Tools"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/the-ultimate-directory.png"
   },
   {
     "name": "Thriendly",
@@ -376,7 +407,8 @@
     "screenshotPath": "assets/screenshots/tools/thriendly.webp",
     "categories": [
       "Scheduling"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/thriendly.png"
   },
   {
     "name": "ThunderSky",
@@ -394,7 +426,8 @@
     "screenshotPath": "assets/screenshots/tools/top-bluesky-followers.webp",
     "categories": [
       "Tools"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/top-bluesky-followers.png"
   },
   {
     "name": "Typefully",
@@ -403,7 +436,8 @@
     "screenshotPath": "assets/screenshots/tools/typefully.webp",
     "categories": [
       "Scheduling"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/typefully.png"
   },
   {
     "name": "Vanity Blue",
@@ -412,6 +446,7 @@
     "screenshotPath": "assets/screenshots/tools/vanity-blue.webp",
     "categories": [
       "Tools"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/vanity-blue.png"
   }
 ]

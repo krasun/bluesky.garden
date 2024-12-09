@@ -6,11 +6,11 @@ import Button from "~/components/ui/Button.astro";
 type Props = HTMLAttributes<"a"> & {
   name: string;
   description?: string;
-  faviconUrl?: string;
+  favicon?: ImageMetadata;
   buttonText?: string;
 };
 
-const { href, name, description, faviconUrl, buttonText, ...props } =
+const { href, name, description, favicon, buttonText, ...props } =
   Astro.props as Props;
 ---
 
@@ -22,10 +22,10 @@ const { href, name, description, faviconUrl, buttonText, ...props } =
 >
   <div class="flex items-center gap-3">
     {
-      faviconUrl && (
+      favicon && (
         <div class="flex size-9 items-center justify-center shrink-0 rounded-md border bg-background p-1">
           <Image
-            src={faviconUrl}
+            src={favicon}
             alt={`A favicon of ${name}`}
             loading="lazy"
             width="64"
