@@ -253,6 +253,15 @@
     "faviconPath": "assets/favicons/tools/monadsky.png"
   },
   {
+    "name": "One Click Block",
+    "url": "https://chromewebstore.google.com/detail/twitterxlinkedinbluesky-o/ibnghddpkdpbgcfcaajdhpnkfgbdadpp",
+    "description": "A chrome extension that adds a block button to each post, to easily manage your feed.",
+    "screenshotPath": "assets/screenshots/tools/one-click-block.webp",
+    "categories": [
+      "Extensions"
+    ],
+  },
+  {
     "name": "OneUp",
     "url": "https://www.oneupapp.io",
     "description": "A social media management tool for Bluesky with unlimited accounts.",
