@@ -26,7 +26,8 @@
     "screenshotPath": "assets/screenshots/tools/blue-peers.webp",
     "categories": [
       "Extensions"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/blue-peers.png"
   },
   {
     "name": "Bluesky Analytics",
@@ -216,6 +217,15 @@
     "faviconPath": "assets/favicons/tools/blueview.png"
   },
   {
+    "name": "Blusky Apps",
+    "url": "https://bluskyapps.com",
+    "description": "Post your App Changelogs automatically to Bluesky.",
+    "screenshotPath": "assets/screenshots/tools/blusky-apps.webp",
+    "categories": [
+      "Tools"
+    ]
+  },
+  {
     "name": "Dopplersky",
     "url": "https://dopplersky.com",
     "description": "A tool for profile tracking and insights on Bluesky.",
@@ -270,6 +280,7 @@
     "categories": [
       "Extensions"
     ],
+    "faviconPath": "assets/favicons/tools/one-click-block.png"
   },
   {
     "name": "OneUp",
@@ -308,7 +319,8 @@
     "screenshotPath": "assets/screenshots/tools/professor-blue.webp",
     "categories": [
       "Tools"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/professor-blue.png"
   },
   {
     "name": "Realtime Bluesky Metrics",
@@ -436,7 +448,8 @@
     "screenshotPath": "assets/screenshots/tools/thunder-sky.webp",
     "categories": [
       "Tools"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/thunder-sky.png"
   },
   {
     "name": "Top Bluesky followers",
@@ -477,13 +490,5 @@
       "Tools"
     ],
     "faviconPath": "assets/favicons/tools/vanity-blue.png"
-  },
-  {
-    "name": "Blusky Apps",
-    "url": "https://bluskyapps.com",
-    "description": "Post your App Changelogs automatically to Bluesky.",    
-    "categories": [
-      "Tools"
-    ],    
   }
 ]
