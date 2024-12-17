@@ -477,5 +477,13 @@
       "Tools"
     ],
     "faviconPath": "assets/favicons/tools/vanity-blue.png"
+  },
+  {
+    "name": "Blusky Apps",
+    "url": "https://bluskyapps.com",
+    "description": "Post your App Changelogs automatically to Bluesky.",    
+    "categories": [
+      "Tools"
+    ],    
   }
 ]
