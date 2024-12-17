@@ -430,6 +430,16 @@
     "faviconPath": "assets/favicons/tools/top-bluesky-followers.png"
   },
   {
+    "name": "TrendSpotter",
+    "url": "https://trendspotter.blue",
+    "description": "Discover trends and viral posts on Bluesky.",
+    "screenshotPath": "assets/screenshots/tools/trendspotter.webp",
+    "categories": [
+      "Analytics"
+    ],
+    "faviconPath": "assets/favicons/tools/trendspotter.png"
+  },
+  {
     "name": "Typefully",
     "url": "https://typefully.com",
     "description": "A simple way to write and schedule posts on Bluesky and other platforms.",
