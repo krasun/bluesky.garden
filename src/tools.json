@@ -66,7 +66,8 @@
     "screenshotPath": "assets/screenshots/tools/bluesky-copilot.webp",
     "categories": [
       "Scheduling"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/bluesky-copilot.png"
   },
   {
     "name": "Bluesky Counter",
@@ -194,7 +195,8 @@
     "screenshotPath": "assets/screenshots/tools/blueskyaudit.webp",
     "categories": [
       "Tools"
-    ]
+    ],
+    "faviconPath": "assets/favicons/tools/bluesky-audit.png"
   },
   {
     "name": "Bluestream",
@@ -301,6 +303,16 @@
       "Analytics"
     ],
     "faviconPath": "assets/favicons/tools/pinsky.png"
+  },
+  {
+    "name": "PostFlow",
+    "url": "https://postflow.app",
+    "description": "Best Bluesky scheduler and tool to cross-post your Bluesky posts. 🦋",
+    "screenshotPath": "assets/screenshots/tools/postflow.webp",
+    "categories": [
+      "Scheduling"
+    ],
+    "faviconPath": "assets/favicons/tools/postflow.png"
   },
   {
     "name": "Postpone",
@@ -490,15 +502,5 @@
       "Tools"
     ],
     "faviconPath": "assets/favicons/tools/vanity-blue.png"
-  },
-  {
-    "name": "PostFlow",
-    "url": "https://postflow.app",
-    "description": "Best Bluesky scheduler and tool to cross-post your Bluesky posts. 🦋",
-    "screenshotPath": "assets/screenshots/tools/postflow.webp",
-    "categories": [
-      "Scheduling"
-    ],
-    "faviconPath": "assets/favicons/tools/postflow.png"
   }
 ]
