@@ -368,7 +368,7 @@
   },
   {
     "name": "Tracker - Manager for Bluesky",
-    "url": "https://bsky.app/profile/bluesky-tracker.bsky.social",
+    "url": "https://blueskytracker.app",
     "description": "The must-have companion app for Bluesky.",
     "screenshotPath": "assets/screenshots/tools/blusky-apps.webp",
     "categories": ["Analytics"],
