@@ -419,5 +419,15 @@
       "Analytics"
     ],
     "faviconPath": "assets/favicons/tools/vanity-blue.png"
+  },
+  {
+    "name": "Bluesky Utils",
+    "url": "https://bskyutils.com",
+    "description": "Supercharge Your BlueSky Experience",
+    "screenshotPath": "assets/screenshots/tools/bsky-utils.webp",
+    "categories": [
+      "Analytics"
+    ],
+    "faviconPath": "assets/favicons/tools/bsky-utils.png"
   }
 ]
