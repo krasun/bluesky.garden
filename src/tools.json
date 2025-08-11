@@ -61,6 +61,7 @@
     "url": "https://blueskycopilot.yourgenlab.com",
     "description": "A tool that generates posts based on your posting history.",
     "screenshotPath": "assets/screenshots/tools/bluesky-copilot.webp",
+    "faviconPath": "assets/favicons/tools/bluesky-copilot.png"
     "categories": ["Scheduling"]
   },
   {
@@ -163,7 +164,8 @@
     "url": "https://blueskyaudit.com",
     "description": "An analytics tool to track and share Bluesky statistics.",
     "screenshotPath": "assets/screenshots/tools/blueskyaudit.webp",
-    "categories": ["Tools"]
+    "categories": ["Tools"],
+    "faviconPath": "assets/favicons/tools/bluesky-audit.png"
   },
   {
     "name": "Bluestream",
@@ -248,6 +250,16 @@
     "screenshotPath": "assets/screenshots/tools/pinsky.webp",
     "categories": ["Analytics"],
     "faviconPath": "assets/favicons/tools/pinsky.png"
+  },
+  {
+    "name": "PostFlow",
+    "url": "https://postflow.app",
+    "description": "Best Bluesky scheduler and tool to cross-post your Bluesky posts. 🦋",
+    "screenshotPath": "assets/screenshots/tools/postflow.webp",
+    "categories": [
+      "Scheduling"
+    ],
+    "faviconPath": "assets/favicons/tools/postflow.png"
   },
   {
     "name": "Postpone",
