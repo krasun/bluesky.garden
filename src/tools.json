@@ -367,6 +367,14 @@
     "faviconPath": "assets/favicons/tools/top-bluesky-followers.png"
   },
   {
+    "name": "Tracker - Manager for Bluesky",
+    "url": "https://blueskytracker.app",
+    "description": "The must-have companion app for Bluesky.",
+    "screenshotPath": "assets/screenshots/tools/blusky-apps.webp",
+    "categories": ["Analytics"],
+    "faviconPath": "assets/favicons/tools/bsky-tracker.webp"
+  },
+  {
     "name": "TrendSpotter",
     "url": "https://trendspotter.blue",
     "description": "Discover trends and viral posts on Bluesky.",
