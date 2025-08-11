@@ -1,5 +1,15 @@
 [
   {
+    "name": "Lonpost",
+    "url": "https://longpost.in",
+    "description": "Share beautiful code snippets on bluesky",
+    "screenshotPath": "assets/screenshots/tools/longpost.webp",
+    "categories": [
+      "Tools"
+    ],
+    "faviconPath": "assets/favicons/tools/longpost.png"
+  },
+  {
     "name": "Airview",
     "url": "https://airview.so",
     "description": "A Bluesky publishing and analytics tool.",
