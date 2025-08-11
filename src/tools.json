@@ -392,9 +392,12 @@
     "name": "Tracker - Manager for Bluesky",
     "url": "https://blueskytracker.app",
     "description": "The must-have companion app for Bluesky.",
-    "screenshotPath": "assets/screenshots/tools/blusky-apps.webp",
-    "categories": ["Analytics"],
-    "faviconPath": "assets/favicons/tools/bsky-tracker.webp"
+    "screenshotPath": "assets/screenshots/tools/bsky-tracker.webp",
+    "categories": [
+      "Tools",
+      "Analytics"
+    ],
+    "faviconPath": "assets/favicons/tools/bsky-tracker.png"
   },
   {
     "name": "TrendSpotter",
