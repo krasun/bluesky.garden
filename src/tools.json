@@ -537,6 +537,27 @@
     "faviconPath": "assets/favicons/tools/typefully.png"
   },
   {
+    "name": "Updrift",
+    "url": "https://updrift.social/go/garden",
+    "description": "Bluesky analytics, a planner that posts at your best hours, and one inbox for every reply. Free stats for one account.",
+    "screenshotPath": "assets/screenshots/tools/updrift.webp",
+    "categories": [
+      "Analytics",
+      "Scheduling"
+    ],
+    "faviconPath": "assets/favicons/tools/updrift.png"
+  },
+  {
+    "name": "updrift.link",
+    "url": "https://updrift.social/go/garden-link",
+    "description": "A free link-in-bio page at your Bluesky handle, with a click count on every link.",
+    "screenshotPath": "assets/screenshots/tools/updrift-link.webp",
+    "categories": [
+      "Tools"
+    ],
+    "faviconPath": "assets/favicons/tools/updrift-link.png"
+  },
+  {
     "name": "Vanity Blue",
     "url": "https://vanity.blue",
     "description": "A service to get a custom Bluesky handle.",
