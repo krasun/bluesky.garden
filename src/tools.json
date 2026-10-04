@@ -286,6 +286,17 @@
     ]
   },
   {
+    "name": "Influence",
+    "url": "https://influence.so",
+    "description": "Plan and schedule Bluesky posts alongside your other social accounts. Prepare drafts with your brand voice, review channel previews, organize a shared content calendar, and read saved account and post Insights. Influence is a paid social media management tool.",
+    "screenshotPath": "assets/screenshots/tools/influence.webp",
+    "categories": [
+      "Scheduling",
+      "Analytics"
+    ],
+    "faviconPath": "assets/favicons/tools/influence.png"
+  },
+  {
     "name": "Label Scanner",
     "url": "https://blue.mackuba.eu/scanner/",
     "description": "A tool to view all labels applied to a Bluesky account.",
