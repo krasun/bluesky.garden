@@ -599,5 +599,11 @@
       "Analytics"
     ],
     "faviconPath": "assets/favicons/tools/bsky-utils.png"
-  }
+  },
+  {
+  "name": "SmartTagAI",
+  "url": "https://smarttagai.com",
+  "description": "AI post generator and scheduler for X and Bluesky with built-in repeat-proof memory. Stop accidentally repeating topics or #OnThisDay posts.",
+  "category": "Tools"
+}
 ]
