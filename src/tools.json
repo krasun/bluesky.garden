@@ -599,5 +599,16 @@
       "Analytics"
     ],
     "faviconPath": "assets/favicons/tools/bsky-utils.png"
+  },
+  {
+    "name": "Bluesky Wrapped MadebyOlof",
+    "url": "https://blueskywrapped.madebyolof.com/",
+    "description": "Like Spotify Wrapped, but for Bluesky. A community-made way to rediscover your top posts, spot your posting habits, and look back at the people who made your year on Bluesky. Share your highlights with a link or downloadable image. No login needed.",
+    "screenshotPath": "assets/screenshots/tools/bluesky-wrapped-madebyolof.webp",
+    "categories": [
+      "Analytics",
+      "Tools"
+    ],
+    "faviconPath": "assets/favicons/tools/bluesky-wrapped-madebyolof.png"
   }
 ]
