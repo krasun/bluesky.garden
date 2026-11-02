@@ -306,6 +306,17 @@
     ]
   },
   {
+    "name": "LurkAPI",
+    "url": "https://lurkapi.com/docs/bluesky",
+    "description": "API and MCP server that returns public Bluesky profiles and posts as JSON, alongside 15 other social platforms. Paid per call, with free credits to start.",
+    "screenshotPath": "assets/screenshots/tools/lurkapi.webp",
+    "categories": [
+      "Tools",
+      "Analytics"
+    ],
+    "faviconPath": "assets/favicons/tools/lurkapi.png"
+  },
+  {
     "name": "Monadsky",
     "url": "https://monadsky.com",
     "description": "A tool to schedule posts, threads, and images in advance.",
