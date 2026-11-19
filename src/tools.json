@@ -580,6 +580,16 @@
     "faviconPath": "assets/favicons/tools/updrift-link.png"
   },
   {
+    "name": "Bluesky.bot",
+    "url": "https://bluesky.bot",
+    "description": "Claim a free handle for a Bluesky bot and find bots in a searchable directory.",
+    "screenshotPath": "assets/screenshots/tools/bluesky-bot.webp",
+    "categories": [
+      "Tools"
+    ],
+    "faviconPath": "assets/favicons/tools/bluesky-bot.png"
+  },
+  {
     "name": "Vanity Blue",
     "url": "https://vanity.blue",
     "description": "A service to get a custom Bluesky handle.",
