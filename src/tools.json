@@ -518,6 +518,17 @@
     "faviconPath": "assets/favicons/tools/thunder-sky.png"
   },
   {
+    "name": "TidySky",
+    "url": "https://tidysky.io",
+    "description": "Insights, bulk unfollow with undo, and lists for who you follow. Open source, runs in your browser.",
+    "screenshotPath": "assets/screenshots/tools/tidysky.webp",
+    "categories": [
+      "Tools",
+      "Analytics"
+    ],
+    "faviconPath": "assets/favicons/tools/tidysky.png"
+  },
+  {
     "name": "Top Bluesky followers",
     "url": "https://topblueskyfollowers.com",
     "description": "A tool to find your followers with the most followers.",
